@@ -10,14 +10,23 @@ import folium
 from streamlit_folium import st_folium
 
 # ==========================================
-# 0. 초기 세팅 및 데이터 탐색 경로 설정
+# 0. 배포 환경 대응 절대 경로 설정 (수정 완료!)
 # ==========================================
 st.set_page_config(page_title="인천국제공항 실시간 종합 대시보드", layout="wide")
 
-BASE_DIR = os.path.expanduser("~/airport_pipeline/data")
-MODEL_PATH = os.path.expanduser("~/airport_pipeline/saved_models/congestion_predict_model.pkl")
-TODAY_STR = datetime.datetime.now().strftime("%Y-%m-%d")
-TARGET_DIR = os.path.join(BASE_DIR, TODAY_STR)
+# app.py가 있는 폴더 위치를 기준으로 data 폴더를 찾음
+BASE_DIR = os.path.dirname(os.path.abspath(__file__)) 
+DATA_DIR = os.path.join(BASE_DIR, "data")
+
+# 💡 시차 문제 해결: 현재 서버의 UTC 시간 대신 한국 시간(KST) 강제 설정
+kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+TODAY_STR = kst_now.strftime("%Y-%m-%d")
+
+TARGET_DIR = os.path.join(DATA_DIR, TODAY_STR)
+
+# [디버깅용] 만약 폴더가 없으면 에러를 띄우지 말고 경로를 출력해보게 설정
+if not os.path.exists(TARGET_DIR):
+    st.error(f"경로를 찾을 수 없습니다: {TARGET_DIR} (깃허브에 데이터가 올라갔는지 확인하세요!)")
 
 # 셔틀버스 주요 정류장 정적 위경도 정보 (순환선 구현용)
 SHUTTLE_STOPS = {
