@@ -1,4 +1,4 @@
-folium==2.20.0
+folium==0.20.0
 pandas==3.0.3
 scikit-learn==1.8.0
 streamlit==1.57.0
