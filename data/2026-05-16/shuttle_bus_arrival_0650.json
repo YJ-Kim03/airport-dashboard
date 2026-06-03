@@ -1,0 +1,105 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE."
+    },
+    "body": {
+      "numOfRows": 10,
+      "pageNo": 1,
+      "totalCount": 54,
+      "items": [
+        {
+          "stopId": "10000280",
+          "ord": "15",
+          "routeId": "11100001",
+          "ofrTime": "20260516154928",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": ""
+        },
+        {
+          "stopId": "10000160",
+          "ord": "16",
+          "routeId": "11100001",
+          "ofrTime": "20260516154854",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": ""
+        },
+        {
+          "stopId": "10000170",
+          "ord": "17",
+          "routeId": "11100001",
+          "ofrTime": "20260516154941",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": ""
+        },
+        {
+          "stopId": "10000270",
+          "ord": "18",
+          "routeId": "11100006",
+          "ofrTime": "20260516154847",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": ""
+        },
+        {
+          "stopId": "10000270",
+          "ord": "28",
+          "routeId": "11100007",
+          "ofrTime": "20230220215918",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": ""
+        },
+        {
+          "stopId": "10000020",
+          "ord": "1",
+          "routeId": "11100001",
+          "ofrTime": "20260516154819",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": "10000150"
+        },
+        {
+          "stopId": "10000180",
+          "ord": "2",
+          "routeId": "11100008",
+          "ofrTime": "20230622161138",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": "10000150"
+        },
+        {
+          "stopId": "10000030",
+          "ord": "2",
+          "routeId": "11100001",
+          "ofrTime": "20260516154852",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": "10000150"
+        },
+        {
+          "stopId": "10000190",
+          "ord": "3",
+          "routeId": "11100008",
+          "ofrTime": "20230622161138",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": "10000150"
+        },
+        {
+          "stopId": "10000040",
+          "ord": "3",
+          "routeId": "11100001",
+          "ofrTime": "20260516154817",
+          "loc": "0",
+          "predTimes": "0",
+          "direction": "10000150"
+        }
+      ]
+    }
+  }
+}

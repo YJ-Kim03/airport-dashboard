@@ -1,0 +1,95 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE."
+    },
+    "body": {
+      "numOfRows": 10,
+      "pageNo": 1,
+      "totalCount": 4729,
+      "items": [
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "1",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0430"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "2",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0442"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "3",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0454"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "4",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0506"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "5",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0514"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "6",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0531"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "7",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0542"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "8",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0600"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "9",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0606"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "10",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0620"
+        }
+      ]
+    }
+  }
+}
