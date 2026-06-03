@@ -92,7 +92,7 @@ elif page == "주차 현황":
             st.error("🏢 인천국제공항 제1여객터미널 (T1 Main Building)")
             
             # [레이아웃 2단계] 단기 주차장 3분할 입체 칼럼 배치
-            st.subheader("🔹 단기 주차장 (지상층 / B1 / B2 Layout)")
+            st.subheader("🔹 단기 주차장 (지상층 / B1 / B2)")
             c1, c2, c3 = st.columns(3)
             
             with c1:
@@ -117,7 +117,7 @@ elif page == "주차 현황":
             st.markdown("---")
             
             # [레이아웃 3단계] 장기 주차장 동측/서측 실제 배치 형상 고스란히 이식
-            st.subheader("🔸 장기 주차장 / 주차 타워 (동측 vs 서측 2열 종대 분할)")
+            st.subheader("🔸 장기 주차장 / 주차 타워 (동측 vs 서측)")
             left_col, right_col = st.columns(2)
             
             with left_col:
