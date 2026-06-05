@@ -97,23 +97,58 @@ elif page == "주차 현황":
             
             with c1:
                 f_name = "T1 단기주차장지상층"
-                if f_name in p_dict:
-                    avail = int(p_dict[f_name]["parkingarea"]) - int(p_dict[f_name]["parking"])
-                    rate = (int(p_dict[f_name]["parking"]) / int(p_dict[f_name]["parkingarea"])) * 100
-                    st.metric(label=f"🟢 {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}% (보통)")
+
+		if f_name in p_dict:
+   		 # 1. API 데이터 추출 (문자열일 수 있으니 int로 변환)
+   		   total_cap = int(p_dict[f_name]["parkingarea"])
+ 		   current_park = int(p_dict[f_name]["parking"])
+  
+  		  # 2. 정제 로직 (데이터 방어)
+ 		  if current_park < 0: current_park = 0              # 음수 방어
+   		  if current_park > total_cap: current_park = total_cap # 100% 초과 방어
+    
+  		  # 3. 안전한 값 계산
+ 		  avail = total_cap - current_park
+   		  rate = (current_park / total_cap) * 100 if total_cap > 0 else 0
+    
+ 		   # 4. 시각화
+		  st.metric(label=f"🟢 {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
             with c2:
                 f_name = "T1 단기주차장지하1층"
-                if f_name in p_dict:
-                    avail = int(p_dict[f_name]["parkingarea"]) - int(p_dict[f_name]["parking"])
-                    rate = (int(p_dict[f_name]["parking"]) / int(p_dict[f_name]["parkingarea"])) * 100
-                    st.metric(label=f"🔵 {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}% (혼잡)", delta_color="inverse")
+# 수정 가이드: 각 주차장별로 아래 로직을 적용하세요
+if f_name in p_dict:
+    # 1. API 데이터 추출 (문자열일 수 있으니 int로 변환)
+    total_cap = int(p_dict[f_name]["parkingarea"])
+    current_park = int(p_dict[f_name]["parking"])
+    
+    # 2. 정제 로직 (데이터 방어)
+    if current_park < 0: current_park = 0              # 음수 방어
+    if current_park > total_cap: current_park = total_cap # 100% 초과 방어
+    
+    # 3. 안전한 값 계산
+    avail = total_cap - current_park
+    rate = (current_park / total_cap) * 100 if total_cap > 0 else 0
+    
+    # 4. 시각화
+    st.metric(label=f"🟢 {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
             with c3:
                 f_name = "T1 단기주차장지하2층"
-                if f_name in p_dict:
-                    avail = int(p_dict[f_name]["parkingarea"]) - int(p_dict[f_name]["parking"])
-                    rate = (int(p_dict[f_name]["parking"]) / int(p_dict[f_name]["parkingarea"])) * 100
-                    st.metric(label=f"🔵 {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}% (여유)")
-                    
+# 수정 가이드: 각 주차장별로 아래 로직을 적용하세요
+if f_name in p_dict:
+    # 1. API 데이터 추출 (문자열일 수 있으니 int로 변환)
+    total_cap = int(p_dict[f_name]["parkingarea"])
+    current_park = int(p_dict[f_name]["parking"])
+    
+    # 2. 정제 로직 (데이터 방어)
+    if current_park < 0: current_park = 0              # 음수 방어
+    if current_park > total_cap: current_park = total_cap # 100% 초과 방어
+    
+    # 3. 안전한 값 계산
+    avail = total_cap - current_park
+    rate = (current_park / total_cap) * 100 if total_cap > 0 else 0
+    
+    # 4. 시각화
+    st.metric(label=f"🟢 {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")                    
             st.markdown("---")
             
             # [레이아웃 3단계] 장기 주차장 동측/서측 실제 배치 형상 고스란히 이식
@@ -122,20 +157,40 @@ elif page == "주차 현황":
             
             with left_col:
                 st.info("⬅️ West Side (서측 주차 구역)")
-                for f_name in ["T1 장기 P2 주차장", "T1 장기 P2 주차타워", "T1 장기 P4 주차장"]:
-                    if f_name in p_dict:
-                        avail = int(p_dict[f_name]["parkingarea"]) - int(p_dict[f_name]["parking"])
-                        rate = (int(p_dict[f_name]["parking"]) / int(p_dict[f_name]["parkingarea"])) * 100
-                        st.metric(label=f_name, value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
-                        
+# 수정 가이드: 각 주차장별로 아래 로직을 적용하세요
+if f_name in p_dict:
+    # 1. API 데이터 추출 (문자열일 수 있으니 int로 변환)
+    total_cap = int(p_dict[f_name]["parkingarea"])
+    current_park = int(p_dict[f_name]["parking"])
+    
+    # 2. 정제 로직 (데이터 방어)
+    if current_park < 0: current_park = 0              # 음수 방어
+    if current_park > total_cap: current_park = total_cap # 100% 초과 방어
+    
+    # 3. 안전한 값 계산
+    avail = total_cap - current_park
+    rate = (current_park / total_cap) * 100 if total_cap > 0 else 0
+    
+    # 4. 시각화
+    st.metric(label=f"🟢 {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")                        
             with right_col:
                 st.success("➡️ East Side (동측 주차 구역)")
-                for f_name in ["T1 장기 P1 주차장", "T1 장기 P1 주차타워", "T1 장기 P3 주차장"]:
-                    if f_name in p_dict:
-                        avail = int(p_dict[f_name]["parkingarea"]) - int(p_dict[f_name]["parking"])
-                        rate = (int(p_dict[f_name]["parking"]) / int(p_dict[f_name]["parkingarea"])) * 100
-                        st.metric(label=f_name, value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
-        except Exception as e:
+# 수정 가이드: 각 주차장별로 아래 로직을 적용하세요
+if f_name in p_dict:
+    # 1. API 데이터 추출 (문자열일 수 있으니 int로 변환)
+    total_cap = int(p_dict[f_name]["parkingarea"])
+    current_park = int(p_dict[f_name]["parking"])
+    
+    # 2. 정제 로직 (데이터 방어)
+    if current_park < 0: current_park = 0              # 음수 방어
+    if current_park > total_cap: current_park = total_cap # 100% 초과 방어
+    
+    # 3. 안전한 값 계산
+    avail = total_cap - current_park
+    rate = (current_park / total_cap) * 100 if total_cap > 0 else 0
+    
+    # 4. 시각화
+    st.metric(label=f"🟢 {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")        except Exception as e:
             st.error(f"주차 데이터 렌더링 중 오류 발생: {e}")
     else:
         st.warning("⚠️ 오늘 자 실시간 주차 JSON 데이터를 찾을 수 없습니다. 파이프라인 수집 상태를 점검하세요.")
