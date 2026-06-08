@@ -245,14 +245,6 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
     elif not chat_id.isdigit():
         st.sidebar.error("❌ CHAT_ID는 숫자만 입력 가능합니다!")
     else:
-    # [핵심 수정] ALERT_DB_PATH의 상위 폴더 경로 추출
-        save_dir = os.path.dirname(ALERT_DB_PATH)
-        
-        # [핵심 수정] 폴더가 없으면 자동으로 생성
-        if not os.path.exists(save_dir):
-            os.makedirs(save_dir)
-            st.sidebar.info(f"📁 폴더를 생성했습니다: {save_dir}")
-        # 데이터 읽기
         alerts = []
         if os.path.exists(ALERT_DB_PATH):
             try:
