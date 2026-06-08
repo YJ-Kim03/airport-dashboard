@@ -251,7 +251,7 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
         # [핵심 수정] 폴더가 없으면 자동으로 생성
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
-            st.sidebar.info(f"📁 폴더를 생성했습니다: {save_dir}"):
+            st.sidebar.info(f"📁 폴더를 생성했습니다: {save_dir}")
         # 데이터 읽기
         alerts = []
         if os.path.exists(ALERT_DB_PATH):
