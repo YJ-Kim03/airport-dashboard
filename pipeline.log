@@ -9311,3 +9311,50 @@ To https://github.com/YJ-Kim03/airport-dashboard.git
 커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
 사용하십시오)
 Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 17:15:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 31bf0fa] auto: pipeline live data sync 2026-06-08 17:15
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_1715.json
+ create mode 100644 data/2026-06-08/parking_info_1715.json
+ create mode 100644 data/2026-06-08/passenger_forecast_1715.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_1715.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_1715.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   b4b6944..31bf0fa  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 17:20:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 17:20:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 6b206b0] auto: pipeline live data sync 2026-06-08 17:20
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_1720.json
+ create mode 100644 data/2026-06-08/parking_info_1720.json
+ create mode 100644 data/2026-06-08/passenger_forecast_1720.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_1720.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_1720.json
+ ✔️ passenger_forecast 데이터 저장 완료
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   31bf0fa..6b206b0  main -> main
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 5256edf] auto: pipeline live data sync 2026-06-08 17:20
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   6b206b0..5256edf  main -> main

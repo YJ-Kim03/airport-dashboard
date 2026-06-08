@@ -1,14 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import datetime
+from datetime import datetime
 import os
 import glob
 import json
 import joblib
 import folium
 import streamlit as st
-from datetime import datetime
 import pytz
 
 # 1. 공통 타임존 객체
@@ -32,7 +31,7 @@ st.set_page_config(page_title="인천국제공항 실시간 종합 대시보드"
 
 BASE_DIR = os.path.expanduser("~/airport_pipeline/data")
 MODEL_PATH = os.path.expanduser("~/airport_pipeline/saved_models/congestion_predict_model.pkl")
-TODAY_STR = datetime.datetime.now().strftime("%Y-%m-%d")
+TODAY_STR = datetime.now().strftime("%Y-%m-%d")
 TARGET_DIR = os.path.join(BASE_DIR, TODAY_STR)
 from streamlit_folium import st_folium
 
@@ -46,7 +45,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 # 💡 시차 문제 해결: 현재 서버의 UTC 시간 대신 한국 시간(KST) 강제 설정
-kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+kst_now = datetime.utcnow() + datetime.timedelta(hours=9)
 TODAY_STR = kst_now.strftime("%Y-%m-%d")
 
 TARGET_DIR = os.path.join(DATA_DIR, TODAY_STR)
