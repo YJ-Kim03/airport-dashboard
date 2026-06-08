@@ -15,7 +15,7 @@ KST = pytz.timezone('Asia/Seoul')
 
 # 2. 현재 시각을 KST로 가져오는 함수 (화면 출력용)
 def get_current_kst_time():
-    return datetime.now(KST)
+    return dt.atetime.now(KST)
 
 # 3. 파일명에서 추출한 시간을 KST로 변환하는 함수 (데이터 해석용 - 기존 코드의 최적화 버전)
 def convert_str_to_kst(time_str):
@@ -212,10 +212,6 @@ elif page == "주차 현황":
     else:
         st.warning("⚠️ 오늘 자 실시간 주차 JSON 데이터를 찾을 수 없습니다. 파이프라인 수집 상태를 점검하세요.")
 
-import streamlit as st
-import json
-import os
-import datetime
 
 # ==========================================
 # 🔔 텔레그램 알림 규칙 저장 및 UI 로직 (app.py 하단 추가)
@@ -584,7 +580,7 @@ elif page == "셔틀버스 현황":
                 
                 # 버스의 기점 출발 시각 및 내 정류장 도착 예정 시각 연산
                 bus_start_time = now.replace(hour=b_hour, minute=b_min, second=0, microsecond=0)
-                bus_arrival_time = bus_start_time + datetime.timedelta(minutes=travel_minutes)
+                bus_arrival_time = bus_start_time + timedelta(minutes=travel_minutes)
                 
                 # (도착 예정 시각 - 현재 시각) 계산
                 time_diff = bus_arrival_time - now
