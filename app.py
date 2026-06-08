@@ -15,14 +15,14 @@ KST = pytz.timezone('Asia/Seoul')
 
 # 2. 현재 시각을 KST로 가져오는 함수 (화면 출력용)
 def get_current_kst_time():
-    return dt.atetime.now(KST)
+    return datetime.datetime.now(KST)
 
 # 3. 파일명에서 추출한 시간을 KST로 변환하는 함수 (데이터 해석용 - 기존 코드의 최적화 버전)
 def convert_str_to_kst(time_str):
     # 문자열을 datetime 객체로 변환
     dt = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
     # UTC로 지정 후 KST로 변환
-    return dt.replace(tzinfo=pytz.utc).astimezone(KST)
+    return datetime.replace(tzinfo=pytz.utc).astimezone(KST)
 
 
 # 0. 초기 세팅 및 데이터 탐색 경로 설정
