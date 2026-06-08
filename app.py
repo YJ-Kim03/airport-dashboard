@@ -264,15 +264,19 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
         
         alerts.append(new_alert)
         
-        # 파일 저장
-        with open(ALERT_DB_PATH, "w", encoding="utf-8") as f:
-            json.dump(alerts, f, indent=4, ensure_ascii=False)
+# 파일에 안전하게 쓰기 (단 한 번만 수행)
+        try:
+            with open(ALERT_DB_PATH, "w", encoding="utf-8") as f:
+                json.dump(alerts, f, indent=4, ensure_ascii=False)
             
-        # 성공 메시지
-        if period_option == "특정 날짜 지정":
-            st.sidebar.success(f"✅ {target_date_str} {alert_time.strftime('%H:%M')} 예약 완료!")
-        else:
-            st.sidebar.success(f"✅ 매일 {alert_time.strftime('%H:%M')} 반복 알림 완료!")
+            # 성공 메시지 뿌려주기
+            if period_option == "특정 날짜 지정":
+                st.sidebar.success(f"✅ {target_date_str} {alert_time.strftime('%H:%M')} 예약 알림 등록 완료!")
+            else:
+                st.sidebar.success(f"✅ 매일 {alert_time.strftime('%H:%M')} 반복 알림 등록 완료!")
+                
+        except Exception as e:
+            st.sidebar.error(f"❌ 저장 실패: {e}")
 
 # ==========================================
 # PAGE 3: 출국장 현황 (디자인 정제 및 서측/동측 파란색 통일 버전)
