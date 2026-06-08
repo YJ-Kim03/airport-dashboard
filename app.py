@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import streamlit as st
+>>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
 import pandas as pd
 import numpy as np
 import datetime
@@ -6,6 +10,7 @@ import glob
 import json
 import joblib
 import folium
+<<<<<<< HEAD
 import streamlit as st
 from datetime import datetime
 import pytz
@@ -34,6 +39,28 @@ BASE_DIR = os.path.expanduser("~/airport_pipeline/data")
 MODEL_PATH = os.path.expanduser("~/airport_pipeline/saved_models/congestion_predict_model.pkl")
 TODAY_STR = datetime.datetime.now().strftime("%Y-%m-%d")
 TARGET_DIR = os.path.join(BASE_DIR, TODAY_STR)
+=======
+from streamlit_folium import st_folium
+
+# ==========================================
+# 0. 배포 환경 대응 절대 경로 설정 (수정 완료!)
+# ==========================================
+st.set_page_config(page_title="인천국제공항 실시간 종합 대시보드", layout="wide")
+
+# app.py가 있는 폴더 위치를 기준으로 data 폴더를 찾음
+BASE_DIR = os.path.dirname(os.path.abspath(__file__)) 
+DATA_DIR = os.path.join(BASE_DIR, "data")
+
+# 💡 시차 문제 해결: 현재 서버의 UTC 시간 대신 한국 시간(KST) 강제 설정
+kst_now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+TODAY_STR = kst_now.strftime("%Y-%m-%d")
+
+TARGET_DIR = os.path.join(DATA_DIR, TODAY_STR)
+
+# [디버깅용] 만약 폴더가 없으면 에러를 띄우지 말고 경로를 출력해보게 설정
+if not os.path.exists(TARGET_DIR):
+    st.error(f"경로를 찾을 수 없습니다: {TARGET_DIR} (깃허브에 데이터가 올라갔는지 확인하세요!)")
+>>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
 
 # 셔틀버스 주요 정류장 정적 위경도 정보 (순환선 구현용)
 SHUTTLE_STOPS = {
@@ -92,6 +119,7 @@ elif page == "주차 현황":
     if parking_data:
         try:
             items = parking_data["response"]["body"]["items"]
+<<<<<<< HEAD
             # 리스트를 딕셔너리로 변환하여 접근 편의성 확보
             p_dict = {item["floor"]: item for item in items}
             
@@ -142,6 +170,54 @@ elif page == "주차 현황":
                         avail = int(p_dict[f_name]["parkingarea"]) - int(p_dict[f_name]["parking"])
                         rate = (int(p_dict[f_name]["parking"]) / int(p_dict[f_name]["parkingarea"])) * 100
                         st.metric(label=f_name, value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
+=======
+            p_dict = {item["floor"]: item for item in items}
+
+            st.error("🏢 인천국제공항 제1여객터미널 (T1 Main Building)")
+
+            # [레이아웃 2단계] 단기 주차장 3분할 입체 칼럼 배치
+            st.subheader("🔹 단기 주차장 (지상층 / B1 / B2)")
+            c1, c2, c3 = st.columns(3)
+
+            # 함수로 정제 로직 단순화
+            def display_parking_metric(col, f_name, label_icon):
+                if f_name in p_dict:
+                    total_cap = int(p_dict[f_name]["parkingarea"])
+                    current_park = int(p_dict[f_name]["parking"])
+                    
+                    # 데이터 정제 로직
+                    if current_park < 0: current_park = 0
+                    if current_park > total_cap: current_park = total_cap
+                    
+                    avail = total_cap - current_park
+                    rate = (current_park / total_cap) * 100 if total_cap > 0 else 0
+                    
+                    col.metric(label=f"{label_icon} {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
+
+            with c1:
+                display_parking_metric(c1, "T1 단기주차장지상층", "🟢")
+            with c2:
+                display_parking_metric(c2, "T1 단기주차장지하1층", "🔵")
+            with c3:
+                display_parking_metric(c3, "T1 단기주차장지하2층", "🔵")
+
+            st.markdown("---")
+
+            # [레이아웃 3단계] 장기 주차장
+            st.subheader("🔸 장기 주차장 / 주차 타워 (동측 vs 서측)")
+            left_col, right_col = st.columns(2)
+
+            with left_col:
+                st.info("⬅️ West Side (서측 주차 구역)")
+                for f_name in ["T1 장기 P2 주차장", "T1 장기 P2 주차타워", "T1 장기 P4 주차장"]:
+                    display_parking_metric(left_col, f_name, "")
+
+            with right_col:
+                st.success("➡️ East Side (동측 주차 구역)")
+                for f_name in ["T1 장기 P1 주차장", "T1 장기 P1 주차타워", "T1 장기 P3 주차장"]:
+                    display_parking_metric(right_col, f_name, "")
+
+>>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
         except Exception as e:
             st.error(f"주차 데이터 렌더링 중 오류 발생: {e}")
     else:
@@ -157,6 +233,11 @@ import datetime
 # ==========================================
 
 # 알림 예약 정보를 저장할 서버 내부 JSON 파일 경로
+<<<<<<< HEAD
+=======
+ALERT_DB_PATH = "user_alerts.json"
+
+>>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
 st.sidebar.markdown("---")
 st.sidebar.subheader("🔔 텔레그램 알림 설정")
 st.sidebar.markdown(
@@ -194,6 +275,7 @@ else:
 # 4. 공통 알림 시간 설정
 alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", datetime.time(9, 0))
 
+<<<<<<< HEAD
 if st.sidebar.button("🔔 알림 규칙 등록/변경"):
 
     # 무조건 이 경로에 파일을 만듭니다.
@@ -228,6 +310,48 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
         st.sidebar.success("✅ 알림 설정이 파일에 저장되었습니다!")
     except Exception as e:
         st.sidebar.error(f"❌ 저장 실패: {e}")
+=======
+# 5. 알림 규칙 등록 버튼 및 파일 저장 로직 결합
+if st.sidebar.button("🔔 알림 규칙 등록/변경"):
+    # CHAT_ID 예외 처리 예방
+    if not chat_id:
+        st.sidebar.error("❌ 텔레그램 CHAT_ID를 먼저 입력해 주세요!")
+    elif not chat_id.isdigit():
+        st.sidebar.error("❌ 올바른 CHAT_ID(숫자만)를 입력해 주세요!")
+    else:
+        # 기존 예약 정보 파일(user_alerts.json)이 있으면 불러오고, 없으면 새 리스트 생성
+        if os.path.exists(ALERT_DB_PATH):
+            try:
+                with open(ALERT_DB_PATH, "r", encoding="utf-8") as f:
+                    alerts = json.load(f)
+            except Exception:
+                alerts = []
+        else:
+            alerts = []
+            
+        # 정형화된 새 알림 데이터를 딕셔너리로 생성
+        new_alert = {
+            "chat_id": chat_id.strip(),
+            "type": period_option,
+            "date": target_date_str,
+            "time": alert_time.strftime("%H:%M")
+        }
+        
+        # 중복 등록 방지 (동일 CHAT_ID의 기존 설정을 덮어쓰거나 누적)
+        # 여기서는 단순 누적으로 설계하되 필요 시 필터링 가능
+        alerts.append(new_alert)
+        
+        # user_alerts.json 파일에 안전하게 쓰기(Write)
+        with open(ALERT_DB_PATH, "w", encoding="utf-8") as f:
+            json.dump(alerts, f, indent=4, ensure_ascii=False)
+            
+        # 성공 메시지 뿌려주기
+        if period_option == "특정 날짜 지정":
+            st.sidebar.success(f"✅ {target_date_str} {alert_time.strftime('%H:%M')} 예약 알림 등록 완료!")
+        else:
+            st.sidebar.success(f"✅ 매일 {alert_time.strftime('%H:%M')} 반복 알림 등록 완료!")
+
+>>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
 # ==========================================
 # PAGE 3: 출국장 현황 (디자인 정제 및 서측/동측 파란색 통일 버전)
 # =========================================================================
@@ -441,9 +565,9 @@ elif page == "셔틀버스 현황":
         try:
             b_items = bus_data["response"]["body"]["items"]
 
-            # 현재 시각 구하기
 	    now = get_current_kst_time() # 한국 표준시(KST) 기준 (함수 호출)
 	    current_time_str = now.strftime("%H:%M")
+
             st.write(f"📊 **현재 기준 시각:** KST {current_time_str}")
             st.markdown(f"#### ⏰ [{selected_stop}] 도착 예정 차편 정보")
 

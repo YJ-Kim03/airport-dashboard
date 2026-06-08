@@ -1,3 +1,4 @@
+HEAD
 altair==6.1.0
 anyio==4.13.0
 attrs==23.2.0
@@ -98,3 +99,9 @@ wheel==0.42.0
 xdg==5
 xkit==0.0.0
 xyzservices==2026.3.0
+folium==0.20.0
+pandas==3.0.3
+scikit-learn==1.8.0
+streamlit==1.57.0
+streamlit-folium==0.27.2
+a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
