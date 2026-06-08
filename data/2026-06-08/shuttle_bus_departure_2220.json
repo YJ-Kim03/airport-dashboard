@@ -3901,4 +3901,115 @@
           "routeId": "11100001",
           "dayType": "1",
           "oprOrd": "90",
-          "stopId": "1000005
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1832"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "91",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1839"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "92",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1846"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "93",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1853"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "94",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1900"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "95",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1907"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "96",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1914"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "97",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1921"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "98",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1928"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "99",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1935"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "100",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1942"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "101",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1949"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "102",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1956"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "103",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "2003"
+        }
+      ]
+    }
+  }
+}
