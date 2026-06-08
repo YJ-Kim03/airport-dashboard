@@ -218,7 +218,7 @@ elif page == "주차 현황":
 # ==========================================
 
 # ALERT_DB_PATH가 정의되어 있어야 합니다 (상단에 설정하세요)
-ALERT_DB_PATH = "/home/maengju/airport_pipeline/user_alerts.json"
+ALERT_DB_PATH = "user_alerts.json"
 
 st.sidebar.subheader("🔔 텔레그램 알림 설정")
 
