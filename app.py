@@ -255,7 +255,7 @@ else:
     st.sidebar.caption("🔄 매일 정해진 시간에 알림이 발송됩니다.")
 
 # 4. 공통 알림 시간 설정
-alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", datetime.time(9, 0))
+alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", time(9, 0))
 
 if st.sidebar.button("🔔 알림 규칙 등록/변경"):
 
