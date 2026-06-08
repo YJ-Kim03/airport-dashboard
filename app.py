@@ -274,7 +274,6 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
             
         except Exception as e:
             # 예외 발생 시 어떤 문제가 있었는지 사용자에게 알림
-            st.sidebar.error(f"❌ 저장 실패: {e}")            
             st.sidebar.error(f"❌ 저장 실패: {e}")
 
 # ==========================================
