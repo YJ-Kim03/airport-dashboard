@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from datetime import datetime, timedelta, time
+from datetime import datetime, timedelta, time, date
 import os
 import glob
 import json
@@ -232,7 +232,7 @@ period_option = st.sidebar.radio("2. 알림 주기를 선택하세요:", ["매�
 target_date_str = "EVERY_DAY" # 기본값
 
 if period_option == "특정 날짜 지정":
-    selected_date = st.sidebar.date_input("날짜 선택:", datetime.date.today())
+    selected_date = st.sidebar.date_input("날짜 선택:", date.today())
     target_date_str = selected_date.strftime("%Y-%m-%d")
     alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", time(9, 0))
 else:
