@@ -31,7 +31,7 @@
           "stopId": "10000170",
           "ord": "17",
           "routeId": "11100001",
-          "ofrTime": "20260609003807",
+          "ofrTime": "20260609004007",
           "loc": "0",
           "predTimes": "0",
           "direction": ""
@@ -184,7 +184,7 @@
           "stopId": "10000140",
           "ord": "13",
           "routeId": "11100001",
-          "ofrTime": "20260609003807",
+          "ofrTime": "20260609004007",
           "loc": "0",
           "predTimes": "0",
           "direction": "10000150"
