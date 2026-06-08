@@ -244,7 +244,7 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
         st.sidebar.error("❌ CHAT_ID를 입력해 주세요!")
     elif not chat_id.isdigit():
         st.sidebar.error("❌ CHAT_ID는 숫자만 입력 가능합니다!")
-    else
+    else:
     # [핵심 수정] ALERT_DB_PATH의 상위 폴더 경로 추출
         save_dir = os.path.dirname(ALERT_DB_PATH)
         
