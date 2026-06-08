@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import glob
 import json
@@ -45,7 +45,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 # 💡 시차 문제 해결: 현재 서버의 UTC 시간 대신 한국 시간(KST) 강제 설정
-kst_now = datetime.utcnow() + datetime.timedelta(hours=9)
+kst_now = datetime.utcnow() + timedelta(hours=9)
 TODAY_STR = kst_now.strftime("%Y-%m-%d")
 
 TARGET_DIR = os.path.join(DATA_DIR, TODAY_STR)
