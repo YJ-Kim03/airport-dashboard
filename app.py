@@ -1,3 +1,10 @@
+import os
+import streamlit as st
+
+st.sidebar.write(f"현재 실행 위치(CWD): {os.getcwd()}")
+st.sidebar.write(f"파일 저장 시도 경로: {ALERT_DB_PATH}")
+st.sidebar.write(f"해당 폴더 존재 여부: {os.path.exists(os.path.dirname(ALERT_DB_PATH))}")
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -239,13 +246,24 @@ if period_option == "특정 날짜 지정":
 else:
     alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", time(9, 0))
 
-# 4. 버튼 로직 (UI 최하단에 단 한 번만 배치)
+# 4. 버튼 로직 부분 수정
 if st.sidebar.button("🔔 알림 규칙 등록/변경"):
+    # 디버깅용: 스트림릿 화면에 현재 경로를 출력
+    st.sidebar.write(f"디버깅 경로: {ALERT_DB_PATH}")
+    
     if not chat_id:
         st.sidebar.error("❌ CHAT_ID를 입력해 주세요!")
     elif not chat_id.isdigit():
         st.sidebar.error("❌ CHAT_ID는 숫자만 입력 가능합니다!")
     else:
+        # [핵심 보완] 폴더가 없으면 강제로 생성
+        if not os.path.exists(BASE_DIR):
+            try:
+                os.makedirs(BASE_DIR)
+                st.sidebar.info(f"📁 폴더 생성됨: {BASE_DIR}")
+            except Exception as e:
+                st.sidebar.error(f"❌ 폴더 생성 실패: {e}")
+                
         alerts = []
         if os.path.exists(ALERT_DB_PATH):
             try:
@@ -260,12 +278,11 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
             "type": period_option,
             "date": target_date_str,
             "time": alert_time.strftime("%H:%M"),
-            "sent": False # 신규 등록 시 무조건 False
+            "sent": False
         }
-        
         alerts = [new_alert]
-        
-# 파일 저장 및 결과 메시지 출력
+
+        # 파일 저장 및 결과 메시지 출력
         try:
             with open(ALERT_DB_PATH, "w", encoding="utf-8") as f:
                 json.dump(alerts, f, indent=4, ensure_ascii=False)
