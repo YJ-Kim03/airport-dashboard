@@ -9358,3 +9358,1320 @@ To https://github.com/YJ-Kim03/airport-dashboard.git
  1 file changed, 4 insertions(+), 4 deletions(-)
 To https://github.com/YJ-Kim03/airport-dashboard.git
    6b206b0..5256edf  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 17:30:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 17:30:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 17:30:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+[main 0b5b283] auto: pipeline live data sync 2026-06-08 17:30
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_1730.json
+ create mode 100644 data/2026-06-08/parking_info_1730.json
+ create mode 100644 data/2026-06-08/passenger_forecast_1730.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_1730.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_1730.json
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   e6cdb97..0b5b283  main -> main
+ ✔️ parking_info 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+현재 브랜치 main
+브랜치가 'origin/main'에 맞게 업데이트된 상태입니다.
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+현재 브랜치 main
+브랜치가 'origin/main'에 맞게 업데이트된 상태입니다.
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+Everything up-to-date
+Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 20:40:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 20:40:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+[main 2b49623] auto: pipeline live data sync 2026-06-08 20:40
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2040.json
+ create mode 100644 data/2026-06-08/parking_info_2040.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2040.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2040.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2040.json
+Everything up-to-date
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   eef3b42..2b49623  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 20:45:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 7c0c457] auto: pipeline live data sync 2026-06-08 20:45
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2045.json
+ create mode 100644 data/2026-06-08/parking_info_2045.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2045.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2045.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2045.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   2b49623..7c0c457  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 20:50:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 20:50:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+[main f12ce21] auto: pipeline live data sync 2026-06-08 20:50
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2050.json
+ create mode 100644 data/2026-06-08/parking_info_2050.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2050.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2050.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2050.json
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 040c409] auto: pipeline live data sync 2026-06-08 20:50
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   7c0c457..f12ce21  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 040c40951de05e920b98a2c019b2c575eebce2f0 but expected 7c0c45776f0479de0b44f18cb4827f1c15c5afdc)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:00:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 21:00:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 21:00:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 5092b29] auto: pipeline live data sync 2026-06-08 21:00
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2100.json
+ create mode 100644 data/2026-06-08/parking_info_2100.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2100.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2100.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2100.json
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        app.py
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 2b16d20] auto: pipeline live data sync 2026-06-08 21:00
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   1ce0597..5092b29  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5092b29fa59cbd9c441d34376514828207899056 but expected 1ce05979ce0dc6d77cf4e4e1830b8036bc3944ee)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   5092b29..2b16d20  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:10:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 21:10:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+[main 315335d] auto: pipeline live data sync 2026-06-08 21:10
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2110.json
+ create mode 100644 data/2026-06-08/parking_info_2110.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2110.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2110.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2110.json
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 196d066] auto: pipeline live data sync 2026-06-08 21:10
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   2b16d20..315335d  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 196d0662356e673f73dfc9281a3207a5ae9ff376 but expected 2b16d20b2b58a051113b1e5272cb6c971a45fd0d)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:15:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main c6eff87] auto: pipeline live data sync 2026-06-08 21:15
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2115.json
+ create mode 100644 data/2026-06-08/parking_info_2115.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2115.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2115.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2115.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   196d066..c6eff87  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:20:01] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:20:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 19c379f] auto: pipeline live data sync 2026-06-08 21:20
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2120.json
+ create mode 100644 data/2026-06-08/parking_info_2120.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2120.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2120.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2120.json
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   b5aeee4..19c379f  main -> main
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 10aaef3] auto: pipeline live data sync 2026-06-08 21:20
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   270db70..10aaef3  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:30:01] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:30:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 21:30:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 1eeffaf] auto: pipeline live data sync 2026-06-08 21:30
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2130.json
+ create mode 100644 data/2026-06-08/parking_info_2130.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2130.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2130.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2130.json
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        app.py
+	수정함:        pipeline.log
+
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+	.app.py.swp
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   10aaef3..1eeffaf  main -> main
+Everything up-to-date
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:40:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 21:40:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main b646975] auto: pipeline live data sync 2026-06-08 21:40
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2140.json
+ create mode 100644 data/2026-06-08/parking_info_2140.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2140.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2140.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2140.json
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        app.py
+	수정함:        pipeline.log
+
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+	.app.py.swp
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   083f853..b646975  main -> main
+Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:45:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main c07c5a0] auto: pipeline live data sync 2026-06-08 21:45
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2145.json
+ create mode 100644 data/2026-06-08/parking_info_2145.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2145.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2145.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2145.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   5974c9c..c07c5a0  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:50:01] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 21:50:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main e5175b5] auto: pipeline live data sync 2026-06-08 21:50
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2150.json
+ create mode 100644 data/2026-06-08/parking_info_2150.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2150.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2150.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2150.json
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 7b35a4b] auto: pipeline live data sync 2026-06-08 21:50
+ 2 files changed, 4 insertions(+), 4019 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   4068712..e5175b5  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   e5175b5..7b35a4b  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:00:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 22:00:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 22:00:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main f840a73] auto: pipeline live data sync 2026-06-08 22:00
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2200.json
+ create mode 100644 data/2026-06-08/parking_info_2200.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2200.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2200.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2200.json
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+[main a1dd23a] auto: pipeline live data sync 2026-06-08 22:00
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'보다 3개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+	.app.py.swp
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   e87bb47..f840a73  main -> main
+Everything up-to-date
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a1dd23a7c15f355e1762e9cdb6b00732edf71ded but expected e87bb47bda1b7c0f324b53c86f508ee966fb6959)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:10:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 22:10:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+Everything up-to-date
+Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:15:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main aff1997] auto: pipeline live data sync 2026-06-08 22:15
+ 10 files changed, 9942 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2210.json
+ create mode 100644 data/2026-06-08/departure_congestion_2215.json
+ create mode 100644 data/2026-06-08/parking_info_2210.json
+ create mode 100644 data/2026-06-08/parking_info_2215.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2210.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2215.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2210.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2215.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2210.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2215.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   6534b6a..aff1997  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:20:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 22:20:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+[main a4ef0ce] auto: pipeline live data sync 2026-06-08 22:20
+ 2 files changed, 116 insertions(+), 5 deletions(-)
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   b88c996..a4ef0ce  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a4ef0ceb18335f920f749d4c1d037dfe2c7dc66e but expected b88c99646613bf9a3a19564f4f447228be2db598)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:30:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 22:30:02] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:30:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+[main f39763e] auto: pipeline live data sync 2026-06-08 22:30
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2230.json
+ create mode 100644 data/2026-06-08/parking_info_2230.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2230.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2230.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2230.json
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        data/2026-06-08/parking_info_2230.json
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   23cb847..f39763e  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 48474281027f8867b0c131a68213dcf93105ccec but expected 23cb8475c30ee2255a886defa99ce61462903d66)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:40:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 22:40:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 7dfce88] auto: pipeline live data sync 2026-06-08 22:40
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2240.json
+ create mode 100644 data/2026-06-08/parking_info_2240.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2240.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2240.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2240.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   db54808..7dfce88  main -> main
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'에 맞게 업데이트된 상태입니다.
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:45:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 8ddf5c7] auto: pipeline live data sync 2026-06-08 22:45
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2245.json
+ create mode 100644 data/2026-06-08/parking_info_2245.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2245.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2245.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2245.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   7dfce88..8ddf5c7  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:50:01] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 22:50:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+[main dc7e030] auto: pipeline live data sync 2026-06-08 22:50
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2250.json
+ create mode 100644 data/2026-06-08/parking_info_2250.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2250.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2250.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2250.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   8ddf5c7..dc7e030  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 326ef03c7d2ddcaa13e5760f7dfcb37a30462e8f but expected 8ddf5c71914db1cfadfc8e30da65e5bde38d1902)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:00:01] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:00:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 23:00:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 5c77a75] auto: pipeline live data sync 2026-06-08 23:00
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2300.json
+ create mode 100644 data/2026-06-08/parking_info_2300.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2300.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2300.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2300.json
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   d21e330..5c77a75  main -> main
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+Everything up-to-date
+Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:10:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 23:10:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+[main 112d5c5] auto: pipeline live data sync 2026-06-08 23:10
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2310.json
+ create mode 100644 data/2026-06-08/parking_info_2310.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2310.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2310.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2310.json
+Everything up-to-date
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   d10c499..112d5c5  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:15:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 09b348f] auto: pipeline live data sync 2026-06-08 23:15
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2315.json
+ create mode 100644 data/2026-06-08/parking_info_2315.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2315.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2315.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2315.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   112d5c5..09b348f  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:20:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 23:20:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+[main e3723c9] auto: pipeline live data sync 2026-06-08 23:20
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2320.json
+ create mode 100644 data/2026-06-08/parking_info_2320.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2320.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2320.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2320.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   09b348f..e3723c9  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 65b52ae0909cdfbb5a8bea515b580cefe3f9416a but expected 09b348f27f2255e81d4a3a4b0c6333bbc1c400df)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:30:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 23:30:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 23:30:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+[main 28ed966] auto: pipeline live data sync 2026-06-08 23:30
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2330.json
+ create mode 100644 data/2026-06-08/parking_info_2330.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2330.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2330.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2330.json
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'보다 2개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+[main 70193d6] auto: pipeline live data sync 2026-06-08 23:30
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   65b52ae..28ed966  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 28ed9660bdd09a33b92fd21ee0dc4b8b3961c28c but expected 65b52ae0909cdfbb5a8bea515b580cefe3f9416a)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   28ed966..70193d6  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:40:02] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:40:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+[main 9338d7b] auto: pipeline live data sync 2026-06-08 23:40
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2340.json
+ create mode 100644 data/2026-06-08/parking_info_2340.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2340.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2340.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2340.json
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   c3365e9..9338d7b  main -> main
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'에 맞게 업데이트된 상태입니다.
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add/rm <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        pipeline.log
+	삭제함:        user_alerts.json
+
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+	.app.py.swp
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:45:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main c131475] auto: pipeline live data sync 2026-06-08 23:45
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-08/departure_congestion_2345.json
+ create mode 100644 data/2026-06-08/parking_info_2345.json
+ create mode 100644 data/2026-06-08/passenger_forecast_2345.json
+ create mode 100644 data/2026-06-08/shuttle_bus_arrival_2345.json
+ create mode 100644 data/2026-06-08/shuttle_bus_departure_2345.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   fc49dab..c131475  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-08 23:50:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-08 23:50:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add/rm <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        app.py
+	수정함:        pipeline.log
+	삭제함:        user_alerts.json
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 0d6b33d] auto: pipeline live data sync 2026-06-08 23:50
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 792866fb59141672a398a3583e609d05bcb129cd but expected c13147554a6e47096750d33d0a1b8d96e9adef97)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   792866f..0d6b33d  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 00:00:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-09 00:00:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-09 00:00:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 5b1dbe5] auto: pipeline live data sync 2026-06-09 00:00
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-09/departure_congestion_0000.json
+ create mode 100644 data/2026-06-09/parking_info_0000.json
+ create mode 100644 data/2026-06-09/passenger_forecast_0000.json
+ create mode 100644 data/2026-06-09/shuttle_bus_arrival_0000.json
+ create mode 100644 data/2026-06-09/shuttle_bus_departure_0000.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   0d6b33d..5b1dbe5  main -> main
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+[main aabc304] auto: pipeline live data sync 2026-06-09 00:00
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main bd5ba77] auto: pipeline live data sync 2026-06-09 00:00
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   5b1dbe5..aabc304  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at bd5ba770fe4f7f3e130c6813baeca5a656bf02aa but expected 5b1dbe52e5e7d7816dc167b56ef0e2678596fab4)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 00:10:01] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-09 00:10:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 2b44df4] auto: pipeline live data sync 2026-06-09 00:10
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   c4f70bb..26dbc80  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 2b44df48b748e990d5ebeddb725bdca52cc75993 but expected c4f70bb05ca78ada61d27f9e6ca872b940ed9738)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 00:15:01] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main b9839f4] auto: pipeline live data sync 2026-06-09 00:15
+ 5 files changed, 4971 insertions(+)
+ create mode 100644 data/2026-06-09/departure_congestion_0015.json
+ create mode 100644 data/2026-06-09/parking_info_0015.json
+ create mode 100644 data/2026-06-09/passenger_forecast_0015.json
+ create mode 100644 data/2026-06-09/shuttle_bus_arrival_0015.json
+ create mode 100644 data/2026-06-09/shuttle_bus_departure_0015.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   2b44df4..b9839f4  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 00:20:01] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 00:20:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+현재 브랜치 main
+브랜치가 'origin/main'에 맞게 업데이트된 상태입니다.
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        alert_log.log
+	수정함:        pipeline.log
+	수정함:        user_alerts.json
+
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+	data/2026-06-09/departure_congestion_0020.json
+	data/2026-06-09/parking_info_0020.json
+	data/2026-06-09/passenger_forecast_0020.json
+	data/2026-06-09/shuttle_bus_arrival_0020.json
+	data/2026-06-09/shuttle_bus_departure_0020.json
+	send_reserved_alert.py
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+Everything up-to-date
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 82a69c0] auto: pipeline live data sync 2026-06-09 00:20
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   7b8a260..82a69c0  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 18: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 00:30:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-09 00:30:02] 인천공항 API 통합 수집 시작...
+🛫 [2026-06-09 00:30:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main 47ea7f9] auto: pipeline live data sync 2026-06-09 00:30
+ 6 files changed, 4993 insertions(+), 5 deletions(-)
+ create mode 100644 data/2026-06-09/departure_congestion_0030.json
+ create mode 100644 data/2026-06-09/parking_info_0030.json
+ create mode 100644 data/2026-06-09/passenger_forecast_0030.json
+ create mode 100644 data/2026-06-09/shuttle_bus_arrival_0030.json
+ create mode 100644 data/2026-06-09/shuttle_bus_departure_0030.json
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   82a69c0..47ea7f9  main -> main
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+[main e2e4f20] auto: pipeline live data sync 2026-06-09 00:30
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   47ea7f9..e2e4f20  main -> main
+[main c7e71db] auto: pipeline live data sync 2026-06-09 00:30
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   e2e4f20..c7e71db  main -> main
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 00:40:01] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 00:40:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main d19d602] auto: pipeline live data sync 2026-06-09 00:40
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d19d6021c7421f9417db71b35841385d129c209d but expected 50815c17447705ed5cb1c0b2e2ba2688747b92b4)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        alert_log.log
+	수정함:        app.py
+	수정함:        pipeline.log
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+Everything up-to-date
