@@ -38,7 +38,7 @@ def convert_str_to_kst(time_str):
 # ==========================================
 # 0. 경로 설정 (중복 없음, 절대 경로로 명확하게!)
 # ==========================================
-st.set_page_config(page_title="인천국제공항 실시간 종합 대시보드", layout=\"wide\")
+st.set_page_config(page_title="인천국제공항 실시간 종합 대시보드", layout="wide")
 
 # 프로젝트 루트 경로 (app.py 기준)
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__)) 
