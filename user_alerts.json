@@ -1,1 +1,9 @@
-[{"chat_id": "8954218615", "type": "매일 반복", "date": "EVERY_DAY", "time": "09:00", "sent": false}]
+[
+    {
+        "chat_id": "8954218615",
+        "type": "\ub9e4\uc77c \ubc18\ubcf5",
+        "date": "EVERY_DAY",
+        "time": "09:00",
+        "sent": false
+    }
+]

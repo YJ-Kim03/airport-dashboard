@@ -1,14 +1,3 @@
-import os
-import streamlit as st
-
-BASE_DIR = "/home/maengju/airport_pipeline"
-ALERT_DB_PATH = os.path.join(BASE_DIR, "user_alerts.json")
-
-
-st.sidebar.write(f"현재 실행 위치(CWD): {os.getcwd()}")
-st.sidebar.write(f"파일 저장 시도 경로: {ALERT_DB_PATH}")
-st.sidebar.write(f"해당 폴더 존재 여부: {os.path.exists(os.path.dirname(ALERT_DB_PATH))}")
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -20,6 +9,18 @@ import joblib
 import folium
 import streamlit as st
 import pytz
+
+# 실행 환경 확인 (Streamlit Cloud 환경인지, 로컬 우분투인지)
+# Streamlit Cloud는 보통 환경변수로 구분할 수 있습니다.
+is_cloud = os.environ.get("STREAMLIT_SERVER_PORT") is not None 
+
+if is_cloud:
+    # 클라우드 배포 시에는 현재 프로젝트 루트를 기준으로 잡습니다.
+    ALERT_DB_PATH = "user_alerts.json" 
+else:
+    # 로컬 우분투 개발 시에는 원래 경로를 사용합니다.
+    ALERT_DB_PATH = "/home/maengju/airport_pipeline/user_alerts.json"
+
 
 # 1. 공통 타임존 객체
 KST = pytz.timezone('Asia/Seoul')
@@ -259,53 +260,41 @@ else:
 
 # 4. 버튼 로직 부분 수정
 if st.sidebar.button("🔔 알림 규칙 등록/변경"):
-    # 디버깅용: 스트림릿 화면에 현재 경로를 출력
-    st.sidebar.write(f"디버깅 경로: {ALERT_DB_PATH}")
-    
     if not chat_id:
         st.sidebar.error("❌ CHAT_ID를 입력해 주세요!")
     elif not chat_id.isdigit():
         st.sidebar.error("❌ CHAT_ID는 숫자만 입력 가능합니다!")
     else:
-        # [핵심 보완] 폴더가 없으면 강제로 생성
-        if not os.path.exists(BASE_DIR):
-            try:
-                os.makedirs(BASE_DIR)
-                st.sidebar.info(f"📁 폴더 생성됨: {BASE_DIR}")
-            except Exception as e:
-                st.sidebar.error(f"❌ 폴더 생성 실패: {e}")
-                
-        alerts = []
-        if os.path.exists(ALERT_DB_PATH):
-            try:
-                with open(ALERT_DB_PATH, "r", encoding="utf-8") as f:
-                    alerts = json.load(f)
-            except:
-                alerts = []
-        
-        # 새 데이터 구성
-        new_alert = {
-            "chat_id": chat_id.strip(),
-            "type": period_option,
-            "date": target_date_str,
-            "time": alert_time.strftime("%H:%M"),
-            "sent": False
-        }
-        alerts = [new_alert]
-
-        # 파일 저장 및 결과 메시지 출력
+    
+    # 1. 파일 읽기 (기존 데이터 유지)
+    alerts = []
+    if os.path.exists(ALERT_DB_PATH):
         try:
-            with open(ALERT_DB_PATH, "w", encoding="utf-8") as f:
-                json.dump(alerts, f, indent=4, ensure_ascii=False)
-            
-            # 성공 메시지
-            if period_option == "특정 날짜 지정":
-                st.sidebar.success(f"✅ {target_date_str} {alert_time.strftime('%H:%M')} 예약 알림 등록 완료!")
-            else:
-                st.sidebar.success(f"✅ 매일 {alert_time.strftime('%H:%M')} 반복 알림 등록 완료!")
-                
+            with open(ALERT_DB_PATH, "r", encoding="utf-8") as f:
+                content = f.read()
+                if content: # 파일이 비어있지 않을 때만 로드
+                    alerts = json.loads(content)
         except Exception as e:
-            st.sidebar.error(f"❌ 저장 실패: {e}")
+            st.sidebar.error(f"파일 읽기 오류: {e}")
+
+    # 2. 새로운 알림 추가
+    new_alert = {
+        "chat_id": chat_id.strip(),
+        "type": period_option,
+        "date": target_date_str,
+        "time": alert_time.strftime("%H:%M"),
+        "sent": False
+    }
+    alerts.append(new_alert) # [수정] 덮어쓰지 않고 추가!
+
+    # 3. 파일 저장
+    try:
+        with open(ALERT_DB_PATH, "w", encoding="utf-8") as f:
+            json.dump(alerts, f, indent=4, ensure_ascii=False)
+        st.sidebar.success("✅ 예약 알림 등록 완료!")
+    except Exception as e:
+        st.sidebar.error(f"❌ 저장 실패: {e}")
+
 
 # ==========================================
 # PAGE 3: 출국장 현황 (디자인 정제 및 서측/동측 파란색 통일 버전)
