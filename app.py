@@ -218,7 +218,8 @@ elif page == "주차 현황":
 # ==========================================
 
 # ALERT_DB_PATH가 정의되어 있어야 합니다 (상단에 설정하세요)
-ALERT_DB_PATH = "user_alerts.json"
+BASE_DIR = "/home/maengju/airport_pipeline"
+ALERT_DB_PATH = os.path.join(BASE_DIR, "user_alerts.json")
 
 st.sidebar.subheader("🔔 텔레그램 알림 설정")
 
@@ -264,16 +265,18 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
         
         alerts = [new_alert]
         
-# 파일 저장 로직
+# 파일 저장 및 결과 메시지 출력
         try:
             with open(ALERT_DB_PATH, "w", encoding="utf-8") as f:
                 json.dump(alerts, f, indent=4, ensure_ascii=False)
             
             # 성공 메시지
-            st.sidebar.success(f"✅ {alert_time.strftime('%H:%M')} 알림 설정 완료!")
-            
+            if period_option == "특정 날짜 지정":
+                st.sidebar.success(f"✅ {target_date_str} {alert_time.strftime('%H:%M')} 예약 알림 등록 완료!")
+            else:
+                st.sidebar.success(f"✅ 매일 {alert_time.strftime('%H:%M')} 반복 알림 등록 완료!")
+                
         except Exception as e:
-            # 예외 발생 시 어떤 문제가 있었는지 사용자에게 알림
             st.sidebar.error(f"❌ 저장 실패: {e}")
 
 # ==========================================
