@@ -296,7 +296,7 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
     except Exception as e:
         st.sidebar.error(f"❌ 저장 실패: {e}")
 # 5. 알림 규칙 등록 버튼 및 파일 저장 로직 결합
-if st.sidebar.button("🔔 알림 규칙 등록/변경"):
+if st.sidebar.button("🔔 알림 규칙 등록/변경", key="alert_settings_btn"):
     # CHAT_ID 예외 처리 예방
     if not chat_id:
         st.sidebar.error("❌ 텔레그램 CHAT_ID를 먼저 입력해 주세요!")
@@ -367,7 +367,7 @@ elif page == "출국장 현황":
     with header_col1:
         st.subheader("📊 실시간 출국장 게이트별 혼잡도")
     with header_col2:
-        if st.button("🔄 실시간 동기화", use_container_width=True):
+        if st.button("🔄 실시간 동기화", use_container_width=True, key="sync_btn"):
             st.toast("출국장 실시간 데이터가 동기화되었습니다!", icon="✨")
 
     # 최신 데이터 파일 읽어오기
