@@ -1,0 +1,4015 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE."
+    },
+    "body": {
+      "numOfRows": 500,
+      "pageNo": 1,
+      "totalCount": 4729,
+      "items": [
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "1",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0430"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "2",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0442"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "3",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0454"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "4",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0506"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "5",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0514"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "6",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0531"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "7",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0542"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "8",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0600"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "9",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0606"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "10",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0620"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "11",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0630"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "12",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0641"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "13",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0653"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "14",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0703"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "15",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0714"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "16",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0730"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "17",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0745"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "18",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0801"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "19",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0813"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "20",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0818"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "21",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0826"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "22",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0842"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "23",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0854"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "24",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0906"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "25",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0923"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "26",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0940"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "27",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "0957"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "28",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1014"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "29",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1031"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "30",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1048"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "31",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1105"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "32",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1122"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "33",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1139"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "34",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1156"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "35",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1213"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "36",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1230"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "37",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1247"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "38",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1304"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "39",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1321"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "40",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1338"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "41",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1355"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "42",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1412"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "43",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1429"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "44",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1446"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "45",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1503"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "46",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1520"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "47",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1537"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "48",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1554"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "49",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1606"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "50",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1618"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "51",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1630"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "52",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1642"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "53",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1654"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "54",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1702"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "55",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1716"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "56",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1725"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "57",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1737"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "58",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1752"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "59",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1806"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "60",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1817"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "61",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1832"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "62",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1839"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "63",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1847"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "64",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1905"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "65",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1917"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "66",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1924"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "67",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1936"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "68",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "1948"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "69",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2003"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "70",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2020"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "71",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2040"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "72",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2100"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "73",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2120"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "74",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2140"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "75",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2200"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "76",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2220"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "77",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2240"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "78",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2300"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "79",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2320"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "80",
+          "stopId": "10000020",
+          "staOrd": "1",
+          "startTime": "2322"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "1",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0431"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "2",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0443"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "3",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0455"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "4",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0507"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "5",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0515"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "6",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0532"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "7",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0543"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "8",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0601"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "9",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0607"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "10",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0621"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "11",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0631"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "12",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0642"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "13",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0654"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "14",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0704"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "15",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0715"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "16",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0731"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "17",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0746"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "18",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0802"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "19",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0814"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "20",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0819"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "21",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0827"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "22",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0843"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "23",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0855"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "24",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0907"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "25",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0924"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "26",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0941"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "27",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "0958"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "28",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1015"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "29",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1032"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "30",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1049"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "31",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1106"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "32",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1123"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "33",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1140"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "34",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1157"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "35",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1214"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "36",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1231"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "37",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1248"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "38",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1305"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "39",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1322"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "40",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1339"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "41",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1356"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "42",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1413"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "43",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1430"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "44",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1447"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "45",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1504"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "46",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1521"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "47",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1538"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "48",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1555"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "49",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1607"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "50",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1619"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "51",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1631"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "52",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1643"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "53",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1655"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "54",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1703"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "55",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1717"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "56",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1726"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "57",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1738"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "58",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1753"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "59",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1807"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "60",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1818"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "61",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1833"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "62",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1840"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "63",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1848"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "64",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1906"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "65",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1918"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "66",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1925"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "67",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1937"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "68",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "1949"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "69",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2004"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "70",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2021"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "71",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2041"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "72",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2101"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "73",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2121"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "74",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2141"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "75",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2201"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "76",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2221"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "77",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2241"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "78",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2301"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "79",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2321"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "80",
+          "stopId": "10000030",
+          "staOrd": "2",
+          "startTime": "2323"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "1",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0432"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "2",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0444"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "3",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0456"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "4",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0508"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "5",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0516"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "6",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0533"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "7",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0544"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "8",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0602"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "9",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0608"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "10",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0622"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "11",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0632"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "12",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0643"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "13",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0655"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "14",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0705"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "15",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0716"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "16",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0732"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "17",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0747"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "18",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0803"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "19",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0815"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "20",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0820"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "21",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0828"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "22",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0844"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "23",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0856"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "24",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0908"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "25",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0925"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "26",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0942"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "27",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "0959"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "28",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1016"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "29",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1033"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "30",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1050"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "31",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1107"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "32",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1124"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "33",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1141"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "34",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1158"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "35",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1215"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "36",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1232"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "37",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1249"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "38",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1306"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "39",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1323"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "40",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1340"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "41",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1357"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "42",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1414"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "43",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1431"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "44",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1448"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "45",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1505"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "46",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1522"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "47",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1539"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "48",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1556"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "49",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1608"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "50",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1620"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "51",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1632"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "52",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1644"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "53",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1656"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "54",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1704"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "55",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1718"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "56",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1727"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "57",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1739"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "58",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1754"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "59",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1808"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "60",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1819"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "61",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1834"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "62",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1841"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "63",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1849"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "64",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1907"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "65",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1919"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "66",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1926"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "67",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1938"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "68",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "1950"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "69",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2005"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "70",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2022"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "71",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2042"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "72",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2102"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "73",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2122"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "74",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2142"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "75",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2202"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "76",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2222"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "77",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2242"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "78",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2302"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "79",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2322"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "80",
+          "stopId": "10000040",
+          "staOrd": "3",
+          "startTime": "2324"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "1",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0437"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "2",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0449"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "3",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0501"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "4",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0513"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "5",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0521"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "6",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0538"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "7",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0549"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "8",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0607"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "9",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0613"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "10",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0627"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "11",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0637"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "12",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0648"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "13",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0700"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "14",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0710"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "15",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0721"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "16",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0737"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "17",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0752"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "18",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0808"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "19",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0820"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "20",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0825"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "21",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0833"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "22",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0849"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "23",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0901"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "24",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0913"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "25",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0930"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "26",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "0947"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "27",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1004"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "28",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1021"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "29",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1038"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "30",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1055"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "31",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1112"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "32",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1129"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "33",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1146"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "34",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1203"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "35",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1220"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "36",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1237"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "37",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1254"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "38",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1311"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "39",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1328"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "40",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1345"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "41",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1402"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "42",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1419"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "43",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1436"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "44",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1453"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "45",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1510"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "46",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1527"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "47",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1544"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "48",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1601"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "49",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1613"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "50",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1625"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "51",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1637"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "52",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1649"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "53",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1701"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "54",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1709"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "55",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1723"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "56",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1732"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "57",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1744"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "58",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1759"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "59",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1813"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "60",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1824"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "61",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1839"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "62",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1846"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "63",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1854"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "64",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1912"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "65",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1924"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "66",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1931"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "67",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1943"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "68",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "1955"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "69",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2010"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "70",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2027"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "71",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2047"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "72",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2107"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "73",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2127"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "74",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2147"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "75",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2207"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "76",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2227"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "77",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2247"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "78",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2307"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "79",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2327"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "80",
+          "stopId": "10000050",
+          "staOrd": "4",
+          "startTime": "2329"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "1",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0528"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "2",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0540"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "3",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0550"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "4",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0607"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "5",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0616"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "6",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0628"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "7",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0636"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "8",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0656"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "9",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0704"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "10",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0717"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "11",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0729"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "12",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0739"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "13",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0750"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "14",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0806"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "15",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0821"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "16",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0828"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "17",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0837"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "18",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0849"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "19",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0902"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "20",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0917"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "21",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0928"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "22",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0940"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "23",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "0952"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "24",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1004"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "25",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1021"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "26",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1038"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "27",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1055"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "28",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1112"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "29",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1129"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "30",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1146"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "31",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1203"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "32",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1220"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "33",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1237"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "34",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1254"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "35",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1311"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "36",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1328"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "37",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1345"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "38",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1402"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "39",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1419"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "40",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1436"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "41",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1453"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "42",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1510"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "43",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1527"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "44",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1544"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "45",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1601"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "46",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1618"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "47",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1635"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "48",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1652"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "49",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1704"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "50",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1716"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "51",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1728"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "52",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1738"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "53",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1752"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "54",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1801"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "55",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1813"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "56",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1828"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "57",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1842"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "58",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1853"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "59",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1908"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "60",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1915"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "61",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1923"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "62",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1940"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "63",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "1952"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "64",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2000"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "65",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2012"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "66",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2024"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "67",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2038"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "68",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2052"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "69",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2104"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "70",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2118"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "71",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2138"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "72",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2158"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "73",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2218"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "74",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2238"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "75",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2258"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "76",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2318"
+        },
+        {
+          "routeId": "11100006",
+          "dayType": "1",
+          "oprOrd": "77",
+          "stopId": "10000050",
+          "staOrd": "13",
+          "startTime": "2338"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "1",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "2124"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "2",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "2144"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "3",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "2204"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "4",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "2224"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "5",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "2244"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "6",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "2304"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "7",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "641"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "8",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "648"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "9",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "655"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "10",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "702"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "11",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "709"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "12",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "716"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "13",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "723"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "14",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "730"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "15",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "737"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "16",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "744"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "17",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "751"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "18",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "758"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "19",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "805"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "20",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "812"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "21",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "819"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "22",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "826"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "23",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "833"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "24",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "840"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "25",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "847"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "26",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "854"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "27",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "901"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "28",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "908"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "29",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "915"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "30",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "922"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "31",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "929"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "32",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "936"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "33",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "943"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "34",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "950"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "35",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "957"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "36",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1004"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "37",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1011"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "38",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1019"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "39",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1029"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "40",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1039"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "41",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1049"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "42",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1059"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "43",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1109"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "44",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1119"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "45",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1129"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "46",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1139"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "47",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1149"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "48",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1159"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "49",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1209"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "50",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1219"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "51",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1229"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "52",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1239"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "53",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1249"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "54",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1259"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "55",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1309"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "56",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1319"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "57",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1329"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "58",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1339"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "59",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1349"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "60",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1359"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "61",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1409"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "62",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1419"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "63",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1429"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "64",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1439"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "65",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1449"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "66",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1459"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "67",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1509"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "68",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1519"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "69",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1529"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "70",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1539"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "71",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1549"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "72",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1559"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "73",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1609"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "74",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1619"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "75",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1629"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "76",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1639"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "77",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1649"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "78",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1659"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "79",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1709"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "80",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1719"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "81",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1729"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "82",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1736"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "83",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1743"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "84",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1750"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "85",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1757"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "86",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1804"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "87",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1811"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "88",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1818"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "89",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1825"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "90",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1832"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "91",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1839"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "92",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1846"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "93",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1853"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "94",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1900"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "95",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1907"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "96",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1914"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "97",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1921"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "98",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1928"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "99",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1935"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "100",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1942"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "101",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1949"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "102",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "1956"
+        },
+        {
+          "routeId": "11100001",
+          "dayType": "1",
+          "oprOrd": "103",
+          "stopId": "10000050",
+          "staOrd": "30",
+          "startTime": "2003"
+        }
+      ]
+    }
+  }
+}

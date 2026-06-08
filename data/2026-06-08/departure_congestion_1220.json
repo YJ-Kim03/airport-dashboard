@@ -1,0 +1,125 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE."
+    },
+    "body": {
+      "numOfRows": 10,
+      "pageNo": 1,
+      "totalCount": 12,
+      "items": [
+        {
+          "gateId": "DG1_E",
+          "terminalId": "P01",
+          "waitTime": "7",
+          "waitLength": "0",
+          "occurtime": "20260608121800",
+          "operatingTime": "",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG1_W",
+          "terminalId": "P01",
+          "waitTime": "7",
+          "waitLength": "0",
+          "occurtime": "20260608121800",
+          "operatingTime": "",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG2_E",
+          "terminalId": "P01",
+          "waitTime": "7",
+          "waitLength": "7",
+          "occurtime": "20260608121800",
+          "operatingTime": "06:00~19:00",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG2_W",
+          "terminalId": "P01",
+          "waitTime": "4",
+          "waitLength": "5",
+          "occurtime": "20260608121800",
+          "operatingTime": "06:00~19:00",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG3_E",
+          "terminalId": "P01",
+          "waitTime": "24",
+          "waitLength": "99",
+          "occurtime": "20260608121800",
+          "operatingTime": "00:00~24:00",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG3_W",
+          "terminalId": "P01",
+          "waitTime": "24",
+          "waitLength": "98",
+          "occurtime": "20260608121800",
+          "operatingTime": "00:00~24:00",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG4_E",
+          "terminalId": "P01",
+          "waitTime": "22",
+          "waitLength": "163",
+          "occurtime": "20260608121800",
+          "operatingTime": "06:30~20:00",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG4_W",
+          "terminalId": "P01",
+          "waitTime": "18",
+          "waitLength": "133",
+          "occurtime": "20260608121800",
+          "operatingTime": "06:30~20:00",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG5_E",
+          "terminalId": "P01",
+          "waitTime": "13",
+          "waitLength": "130",
+          "occurtime": "20260608121800",
+          "operatingTime": "05:00~22:00",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        },
+        {
+          "gateId": "DG5_W",
+          "terminalId": "P01",
+          "waitTime": "27",
+          "waitLength": "248",
+          "occurtime": "20260608121800",
+          "operatingTime": "05:00~22:00",
+          "tmp1": " ",
+          "tmp2": " ",
+          "tmp3": " "
+        }
+      ]
+    }
+  }
+}
