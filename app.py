@@ -1,6 +1,10 @@
 import os
 import streamlit as st
 
+BASE_DIR = "/home/maengju/airport_pipeline"
+ALERT_DB_PATH = os.path.join(BASE_DIR, "user_alerts.json")
+
+
 st.sidebar.write(f"현재 실행 위치(CWD): {os.getcwd()}")
 st.sidebar.write(f"파일 저장 시도 경로: {ALERT_DB_PATH}")
 st.sidebar.write(f"해당 폴더 존재 여부: {os.path.exists(os.path.dirname(ALERT_DB_PATH))}")
@@ -31,15 +35,26 @@ def convert_str_to_kst(time_str):
     # UTC로 지정 후 KST로 변환
     return datetime.replace(tzinfo=pytz.utc).astimezone(KST)
 
-
-# 0. 초기 세팅 및 데이터 탐색 경로 설정
 # ==========================================
-st.set_page_config(page_title="인천국제공항 실시간 종합 대시보드", layout="wide")
+# 0. 경로 설정 (중복 없음, 절대 경로로 명확하게!)
+# ==========================================
+st.set_page_config(page_title="인천국제공항 실시간 종합 대시보드", layout=\"wide\")
 
-BASE_DIR = os.path.expanduser("~/airport_pipeline/data")
-MODEL_PATH = os.path.expanduser("~/airport_pipeline/saved_models/congestion_predict_model.pkl")
+# 프로젝트 루트 경로 (app.py 기준)
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__)) 
+
+# 데이터 및 알림 DB 경로 분리
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+ALERT_DB_PATH = os.path.join(PROJECT_ROOT, "user_alerts.json") # 알림 DB용 절대 경로
+
+# 오늘 날짜
 TODAY_STR = datetime.now().strftime("%Y-%m-%d")
-TARGET_DIR = os.path.join(BASE_DIR, TODAY_STR)
+TARGET_DIR = os.path.join(DATA_DIR, TODAY_STR)
+
+# ==========================================
+# (이후 코드에서 ALERT_DB_PATH를 안심하고 사용하세요)
+# ==========================================
+
 from streamlit_folium import st_folium
 
 # ==========================================
@@ -223,10 +238,6 @@ elif page == "주차 현황":
 # ==========================================
 # 🔔 텔레그램 알림 규칙 저장 및 UI 로직 (app.py 하단 추가)
 # ==========================================
-
-# ALERT_DB_PATH가 정의되어 있어야 합니다 (상단에 설정하세요)
-BASE_DIR = "/home/maengju/airport_pipeline"
-ALERT_DB_PATH = os.path.join(BASE_DIR, "user_alerts.json")
 
 st.sidebar.subheader("🔔 텔레그램 알림 설정")
 
