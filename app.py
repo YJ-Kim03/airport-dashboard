@@ -45,7 +45,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 # 💡 시차 문제 해결: 현재 서버의 UTC 시간 대신 한국 시간(KST) 강제 설정
-kst_now = datetime.utcnow() + timedelta(hours=9)
+kst_now = datetime.now(pytz.timezone('Asia/Seoul'))
 TODAY_STR = kst_now.strftime("%Y-%m-%d")
 
 TARGET_DIR = os.path.join(DATA_DIR, TODAY_STR)
@@ -234,9 +234,9 @@ target_date_str = "EVERY_DAY" # 기본값
 if period_option == "특정 날짜 지정":
     selected_date = st.sidebar.date_input("날짜 선택:", datetime.date.today())
     target_date_str = selected_date.strftime("%Y-%m-%d")
-    alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", datetime.time(9, 0))
+    alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", time(9, 0))
 else:
-    alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", datetime.time(9, 0))
+    alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", time(9, 0))
 
 # 4. 버튼 로직 (UI 최하단에 단 한 번만 배치)
 if st.sidebar.button("🔔 알림 규칙 등록/변경"):
