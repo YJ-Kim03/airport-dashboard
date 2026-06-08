@@ -217,119 +217,63 @@ elif page == "주차 현황":
 # 🔔 텔레그램 알림 규칙 저장 및 UI 로직 (app.py 하단 추가)
 # ==========================================
 
-# 알림 예약 정보를 저장할 서버 내부 JSON 파일 경로
-ALERT_DB_PATH = "user_alerts.json"
+# ALERT_DB_PATH가 정의되어 있어야 합니다 (상단에 설정하세요)
+ALERT_DB_PATH = "/home/maengju/airport_pipeline/user_alerts.json"
 
-st.sidebar.markdown("---")
 st.sidebar.subheader("🔔 텔레그램 알림 설정")
-st.sidebar.markdown(
-    "텔레그램 봇(`@내_봇_이름`)을 시작한 후 발급받은 **고유 CHAT_ID**를 입력하면 원하시는 시간에 주차장 실시간 혼잡도를 보내드립니다."
-)
 
-# 1. 텔레그램 고유 CHAT_ID 입력 (필수)
+# 1. CHAT_ID 입력
 chat_id = st.sidebar.text_input("1. 텔레그램 CHAT_ID 입력 (숫자)", placeholder="예: 8954218615")
 
-# 2. 알림 주기 대분류 선택
-period_option = st.sidebar.radio(
-    "2. 알림 주기를 선택하세요:",
-    ["매일 반복", "특정 날짜 지정"]
-)
+# 2. 알림 주기 선택
+period_option = st.sidebar.radio("2. 알림 주기를 선택하세요:", ["매일 반복", "특정 날짜 지정"])
 
-# 3. '특정 날짜 지정'을 클릭했을 때만 년, 월, 일 선택기 노출
+# 3. 날짜 및 시간 설정 (조건부 UI)
+target_date_str = "EVERY_DAY" # 기본값
+
 if period_option == "특정 날짜 지정":
-    st.sidebar.markdown("📅 **알림을 받을 날짜를 지정해 주세요**")
-    
-    # st.date_input은 달력 팝업을 통해 년, 월, 일을 모두 선택할 수 있게 해줍니다.
-    selected_date = st.sidebar.date_input(
-        "날짜 선택:",
-        value=datetime.date.today(),       # 기본값: 오늘 날짜
-        min_value=datetime.date.today()    # 과거 날짜는 선택 불가능하도록 방어
-    )
-    
-    # 선택된 날짜 문자열 포맷팅 (예: 2026-06-03)
+    selected_date = st.sidebar.date_input("날짜 선택:", datetime.date.today())
     target_date_str = selected_date.strftime("%Y-%m-%d")
-    st.sidebar.caption(f"🎯 선택된 날짜: `{target_date_str}`에 알림이 발송됩니다.")
+    alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", datetime.time(9, 0))
 else:
-    # '매일 반복'을 선택한 경우
-    target_date_str = "EVERY_DAY"
-    st.sidebar.caption("🔄 매일 정해진 시간에 알림이 발송됩니다.")
+    alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", datetime.time(9, 0))
 
-# 4. 공통 알림 시간 설정
-alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", time(9, 0))
-
+# 4. 버튼 로직 (UI 최하단에 단 한 번만 배치)
 if st.sidebar.button("🔔 알림 규칙 등록/변경"):
-
-    # 무조건 이 경로에 파일을 만듭니다.
-    SAVE_PATH = "/home/maengju/airport_pipeline/user_alerts.json"
-    
-    new_alert = {
-        "chat_id": chat_id.strip(),
-        "type": period_option,
-        "date": target_date_str,
-        "target_time": alert_time.strftime("%H:%M"),
-        "sent": False
-    }
-
-# 1. 파일 읽기 (기존 데이터를 유지하기 위함)
-    alerts = []
-    if os.path.exists(SAVE_PATH):
-        try:
-            with open(SAVE_PATH, "r", encoding="utf-8") as f:
-                content = f.read()
-                if content: # 파일이 비어있지 않을 때만 읽음
-                    alerts = json.loads(content)
-        except Exception as e:
-            st.sidebar.error(f"❌ 데이터 로드 실패: {e}")
-
-    # 2. 새로운 데이터 추가
-    alerts.append(new_alert)
-
-    # 3. 안전하게 파일에 쓰기
-    try:
-        with open(SAVE_PATH, "w", encoding="utf-8") as f:
-            json.dump(alerts, f, indent=4, ensure_ascii=False)
-        st.sidebar.success("✅ 알림 설정이 파일에 저장되었습니다!")
-    except Exception as e:
-        st.sidebar.error(f"❌ 저장 실패: {e}")
-# 5. 알림 규칙 등록 버튼 및 파일 저장 로직 결합
-if st.sidebar.button("🔔 알림 규칙 등록/변경", key="alert_settings_btn"):
-    # CHAT_ID 예외 처리 예방
     if not chat_id:
-        st.sidebar.error("❌ 텔레그램 CHAT_ID를 먼저 입력해 주세요!")
+        st.sidebar.error("❌ CHAT_ID를 입력해 주세요!")
     elif not chat_id.isdigit():
-        st.sidebar.error("❌ 올바른 CHAT_ID(숫자만)를 입력해 주세요!")
+        st.sidebar.error("❌ CHAT_ID는 숫자만 입력 가능합니다!")
     else:
-        # 기존 예약 정보 파일(user_alerts.json)이 있으면 불러오고, 없으면 새 리스트 생성
+        # 데이터 읽기
+        alerts = []
         if os.path.exists(ALERT_DB_PATH):
             try:
                 with open(ALERT_DB_PATH, "r", encoding="utf-8") as f:
                     alerts = json.load(f)
-            except Exception:
+            except:
                 alerts = []
-        else:
-            alerts = []
-            
-        # 정형화된 새 알림 데이터를 딕셔너리로 생성
+        
+        # 새 데이터 구성
         new_alert = {
             "chat_id": chat_id.strip(),
             "type": period_option,
             "date": target_date_str,
-            "time": alert_time.strftime("%H:%M")
+            "time": alert_time.strftime("%H:%M"),
+            "sent": False # 신규 등록 시 무조건 False
         }
         
-        # 중복 등록 방지 (동일 CHAT_ID의 기존 설정을 덮어쓰거나 누적)
-        # 여기서는 단순 누적으로 설계하되 필요 시 필터링 가능
         alerts.append(new_alert)
         
-        # user_alerts.json 파일에 안전하게 쓰기(Write)
+        # 파일 저장
         with open(ALERT_DB_PATH, "w", encoding="utf-8") as f:
             json.dump(alerts, f, indent=4, ensure_ascii=False)
             
-        # 성공 메시지 뿌려주기
+        # 성공 메시지
         if period_option == "특정 날짜 지정":
-            st.sidebar.success(f"✅ {target_date_str} {alert_time.strftime('%H:%M')} 예약 알림 등록 완료!")
+            st.sidebar.success(f"✅ {target_date_str} {alert_time.strftime('%H:%M')} 예약 완료!")
         else:
-            st.sidebar.success(f"✅ 매일 {alert_time.strftime('%H:%M')} 반복 알림 등록 완료!")
+            st.sidebar.success(f"✅ 매일 {alert_time.strftime('%H:%M')} 반복 알림 완료!")
 
 # ==========================================
 # PAGE 3: 출국장 현황 (디자인 정제 및 서측/동측 파란색 통일 버전)
