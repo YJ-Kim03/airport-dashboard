@@ -265,9 +265,7 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
     elif not chat_id.isdigit():
         st.sidebar.error("❌ CHAT_ID는 숫자만 입력 가능합니다!")
     else:
-    
-    # 1. 파일 읽기 (기존 데이터 유지)
-    alerts = []
+        alerts = []    
     if os.path.exists(ALERT_DB_PATH):
         try:
             with open(ALERT_DB_PATH, "r", encoding="utf-8") as f:

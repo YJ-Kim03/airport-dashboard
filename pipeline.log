@@ -10793,3 +10793,56 @@ Everything up-to-date
 커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
 사용하십시오)
 Everything up-to-date
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 14: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 01:10:02] 인천공항 API 통합 수집 시작...
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 22: fetch_api: 명령어를 찾을 수 없음
+/home/maengju/airport_pipeline/airport_data_pipeline.sh: 줄 23: fetch_api: 명령어를 찾을 수 없음
+🛫 [2026-06-09 01:10:02] 인천공항 API 통합 수집 시작...
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ passenger_forecast 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ departure_congestion 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_departure 데이터 저장 완료
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+[main ef06c27] auto: pipeline live data sync 2026-06-09 01:10
+ 9 files changed, 5161 insertions(+), 52 deletions(-)
+ create mode 100644 data/2026-06-09/departure_congestion_0110.json
+ create mode 100644 data/2026-06-09/parking_info_0110.json
+ create mode 100644 data/2026-06-09/passenger_forecast_0110.json
+ create mode 100644 data/2026-06-09/shuttle_bus_arrival_0110.json
+ create mode 100644 data/2026-06-09/shuttle_bus_departure_0110.json
+ ✔️ shuttle_bus_arrival 데이터 저장 완료
+ ✔️ parking_info 데이터 저장 완료
+✨ 통합 데이터 수집 완료!
+fatal: '/home/maengju/airport_pipeline/.git/index.lock' 파일을 만들 수 없습니다: 파일이 있습니다.
+
+이 저장소에서 다른 깃 프로세스가 실행 중인 것으로 보입니다. (예를
+들어 'git commit' 명령으로 편집기가 열려 있다든지.) 모든 프로세스를
+끝냈는지 확인하시고 다시 시도해 보십시오. 그래도 계속 실패하면, 이
+저장소에서 깃 프로세스가 전에 이상 종료했을 수도 있습니다:
+수동으로 해당 파일을 제거하고 계속하십시오.
+현재 브랜치 main
+브랜치가 'origin/main'보다 1개 커밋만큼 앞에 있습니다.
+  (로컬에 있는 커밋을 제출하려면 "git push"를 사용하십시오)
+
+커밋하도록 정하지 않은 변경 사항:
+  (무엇을 커밋할지 바꾸려면 "git add <파일>..."을 사용하십시오)
+  (작업 디렉토리의 변경을 무시하려면 "git restore <file>..."을 사용하시오)
+	수정함:        alert_log.log
+	수정함:        data/2026-06-09/parking_info_0110.json
+	수정함:        pipeline.log
+
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+	.app.py.swp
+
+커밋할 변경 사항을 추가하지 않았습니다 ("git add" 및/또는 "git commit -a"를
+사용하십시오)
+To https://github.com/YJ-Kim03/airport-dashboard.git
+   c93eee8..ef06c27  main -> main
+To https://github.com/YJ-Kim03/airport-dashboard.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at ef06c279e1048c8e62caeb23dcdd3e08f0ea4984 but expected c93eee87bc09a675e1608447eecabe257ea867dd)
+error: 레퍼런스를 'https://github.com/YJ-Kim03/airport-dashboard.git'에 푸시하는데 실패했습니다
