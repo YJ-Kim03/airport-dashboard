@@ -381,7 +381,7 @@ elif page == "출국장 현황":
             if len(raw_occur_time) >= 14:
                 formatted_time = f"{raw_occur_time[8:10]}:{raw_occur_time[10:12]}:{raw_occur_time[12:14]}"
             else:
-                formatted_time = datetime.datetime.now().strftime("%H:%M:%S")
+                formatted_time = datetime.now().strftime("%H:%M:%S")
 
             # 버튼과 겹치지 않도록 적절한 공백 분리 후 우측 하단에 최종 시각 배치
             st.write("")
