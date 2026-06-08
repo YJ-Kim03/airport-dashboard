@@ -1,9 +1,5 @@
 {
   "response": {
-    "header": {
-      "resultCode": "00",
-      "resultMsg": "NORMAL SERVICE."
-    },
     "body": {
       "numOfRows": 10,
       "pageNo": 1,
@@ -67,9 +63,13 @@
           "floor": "T1 P5 예약주차장",
           "parking": "953",
           "parkingarea": "1276",
-          "datetm": "20260608210857.000"
+          "datetm": "20260608211007.000"
         }
       ]
+    },
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE."
     }
   }
 }
