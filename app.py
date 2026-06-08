@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 import streamlit as st
->>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
 import pandas as pd
 import numpy as np
 import datetime
@@ -10,7 +7,6 @@ import glob
 import json
 import joblib
 import folium
-<<<<<<< HEAD
 import streamlit as st
 from datetime import datetime
 import pytz
@@ -30,7 +26,6 @@ def convert_str_to_kst(time_str):
     return dt.replace(tzinfo=pytz.utc).astimezone(KST)
 
 
-# ==========================================
 # 0. 초기 세팅 및 데이터 탐색 경로 설정
 # ==========================================
 st.set_page_config(page_title="인천국제공항 실시간 종합 대시보드", layout="wide")
@@ -39,7 +34,6 @@ BASE_DIR = os.path.expanduser("~/airport_pipeline/data")
 MODEL_PATH = os.path.expanduser("~/airport_pipeline/saved_models/congestion_predict_model.pkl")
 TODAY_STR = datetime.datetime.now().strftime("%Y-%m-%d")
 TARGET_DIR = os.path.join(BASE_DIR, TODAY_STR)
-=======
 from streamlit_folium import st_folium
 
 # ==========================================
@@ -60,7 +54,6 @@ TARGET_DIR = os.path.join(DATA_DIR, TODAY_STR)
 # [디버깅용] 만약 폴더가 없으면 에러를 띄우지 말고 경로를 출력해보게 설정
 if not os.path.exists(TARGET_DIR):
     st.error(f"경로를 찾을 수 없습니다: {TARGET_DIR} (깃허브에 데이터가 올라갔는지 확인하세요!)")
->>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
 
 # 셔틀버스 주요 정류장 정적 위경도 정보 (순환선 구현용)
 SHUTTLE_STOPS = {
@@ -119,7 +112,6 @@ elif page == "주차 현황":
     if parking_data:
         try:
             items = parking_data["response"]["body"]["items"]
-<<<<<<< HEAD
             # 리스트를 딕셔너리로 변환하여 접근 편의성 확보
             p_dict = {item["floor"]: item for item in items}
             
@@ -170,7 +162,6 @@ elif page == "주차 현황":
                         avail = int(p_dict[f_name]["parkingarea"]) - int(p_dict[f_name]["parking"])
                         rate = (int(p_dict[f_name]["parking"]) / int(p_dict[f_name]["parkingarea"])) * 100
                         st.metric(label=f_name, value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
-=======
             p_dict = {item["floor"]: item for item in items}
 
             st.error("🏢 인천국제공항 제1여객터미널 (T1 Main Building)")
@@ -217,7 +208,6 @@ elif page == "주차 현황":
                 for f_name in ["T1 장기 P1 주차장", "T1 장기 P1 주차타워", "T1 장기 P3 주차장"]:
                     display_parking_metric(right_col, f_name, "")
 
->>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
         except Exception as e:
             st.error(f"주차 데이터 렌더링 중 오류 발생: {e}")
     else:
@@ -233,11 +223,8 @@ import datetime
 # ==========================================
 
 # 알림 예약 정보를 저장할 서버 내부 JSON 파일 경로
-<<<<<<< HEAD
-=======
 ALERT_DB_PATH = "user_alerts.json"
 
->>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
 st.sidebar.markdown("---")
 st.sidebar.subheader("🔔 텔레그램 알림 설정")
 st.sidebar.markdown(
@@ -275,7 +262,6 @@ else:
 # 4. 공통 알림 시간 설정
 alert_time = st.sidebar.time_input("3. ⏰ 알림 발송 시간 설정:", datetime.time(9, 0))
 
-<<<<<<< HEAD
 if st.sidebar.button("🔔 알림 규칙 등록/변경"):
 
     # 무조건 이 경로에 파일을 만듭니다.
@@ -310,7 +296,6 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
         st.sidebar.success("✅ 알림 설정이 파일에 저장되었습니다!")
     except Exception as e:
         st.sidebar.error(f"❌ 저장 실패: {e}")
-=======
 # 5. 알림 규칙 등록 버튼 및 파일 저장 로직 결합
 if st.sidebar.button("🔔 알림 규칙 등록/변경"):
     # CHAT_ID 예외 처리 예방
@@ -351,7 +336,6 @@ if st.sidebar.button("🔔 알림 규칙 등록/변경"):
         else:
             st.sidebar.success(f"✅ 매일 {alert_time.strftime('%H:%M')} 반복 알림 등록 완료!")
 
->>>>>>> a746f65ecc36cc57f5cf1f4c111825e158c1c1ed
 # ==========================================
 # PAGE 3: 출국장 현황 (디자인 정제 및 서측/동측 파란색 통일 버전)
 # =========================================================================
@@ -365,7 +349,7 @@ elif page == "출국장 현황":
     
     # 공항 데이터 명세 게이트 한글 매핑 사전
     GATE_NAME_MAP = {
-	"DG1_E": "제1여객터미널 동측 GATE 1",
+    "DG1_E": "제1여객터미널 동측 GATE 1",
         "DG1_W": "제1여객터미널 서측 GATE 1",
         "DG2_E": "제1여객터미널 동측 GATE 2",
         "DG2_W": "제1여객터미널 서측 GATE 2",
@@ -419,20 +403,19 @@ elif page == "출국장 현황":
 
             # 좌(서측), 중앙(선), 우(동측) 3열 그리드 레이아웃
             main_col1, main_line, main_col3 = st.columns([4.8, 0.4, 4.8])
-            
-            # --- [왼쪽: 서측 게이트 구역] ---
+# --- [왼쪽: 서측 게이트 구역] ---
             with main_col1:
                 st.markdown("""
-                    <div style='background-color: #E3F2FD; padding: 8px 15px; border-radius: 8px; text-align: center; border: 1px solid #BBDEFB; margin-bottom: 15px;'>
-                        <h4 style='margin:0; color: #000000;'>⬅️ 서측 게이트 현황 (West Gates)</h4>
+                    <div style='background-color: #E3F2FD; padding: 8px 15px; border-radius: 8px; text-align: center;'>
+                        <h4 style='margin:0; color: #000000;'>➡️ 동측 게이트 현황 (East Gates)</h4>
                     </div>
                 """, unsafe_allow_html=True)
-                
+
                 for clean_name, item in west_gates:
                     wait_len = int(item.get("waitLength", 0))
                     wait_time = int(item.get("waitTime", 0))
                     status_emoji = "🟢 여유" if wait_time < 10 else ("🟡 보통" if wait_time < 20 else "🔴 혼잡")
-                    
+
                     with st.container(border=True):
                         st.markdown(f"##### {clean_name}")
                         st.markdown(f"**상태:** {status_emoji}")
@@ -440,13 +423,13 @@ elif page == "출국장 현황":
                         c1.metric(label="👥 대기 인원", value=f"{wait_len} 명")
                         c2.metric(label="⏱️ 예상 대기 시간", value=f"{wait_time} 분")
 
-            # --- [가운데: 얇은 수직 구분선] ---
+          # --- [가운데: 얇은 수직 구분선] ---
             with main_line:
                 st.markdown("""
-                    <div style='display: flex; justify-content: center; align-items: center; height: 100%; min-height: 400px;'>
-                        <div style='border-left: 2px solid #E0E0E0; height: 100px; min-height: 500px; margin: 0 auto;'></div>
+                    <div style='display: flex; justify-content: center; align-items: center; height: 100%; min-height: 500px;'>
+                        <div style='border-left: 2px solid #E0E0E0; height: 100px; margin: 0 auto;'></div>
                     </div>
-                """, unsafe_allow_html=True)
+                """, unsafe_allow_html=True)            
 
             # --- [오른쪽: 동측 게이트 구역] ---
             with main_col3:
@@ -565,8 +548,8 @@ elif page == "셔틀버스 현황":
         try:
             b_items = bus_data["response"]["body"]["items"]
 
-	    now = get_current_kst_time() # 한국 표준시(KST) 기준 (함수 호출)
-	    current_time_str = now.strftime("%H:%M")
+            now = get_current_kst_time() # 한국 표준시(KST) 기준 (함수 호출)
+            current_time_str = now.strftime("%H:%M")
 
             st.write(f"📊 **현재 기준 시각:** KST {current_time_str}")
             st.markdown(f"#### ⏰ [{selected_stop}] 도착 예정 차편 정보")
