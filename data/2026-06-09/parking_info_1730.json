@@ -1,9 +1,5 @@
 {
   "response": {
-    "header": {
-      "resultCode": "00",
-      "resultMsg": "NORMAL SERVICE."
-    },
     "body": {
       "numOfRows": 10,
       "pageNo": 1,
@@ -70,6 +66,10 @@
           "datetm": "20260609172942.000"
         }
       ]
+    },
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE."
     }
   }
 }
