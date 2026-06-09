@@ -1,8 +1,11 @@
 import json
 import glob
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 import requests
+import pytz
+
+KST = pytz.timezone('Asia/Seoul')
 
 ALERT_DB_PATH = "/home/maengju/airport_pipeline/user_alerts.json"
 TOKEN = "8925194718:AAGqy1koGohvlgyuEGxDDCvJAmFjTQliTM4"
@@ -38,31 +41,27 @@ def main():
     if not os.path.exists(ALERT_DB_PATH) or os.path.getsize(ALERT_DB_PATH) == 0:
         return
 
-    with open(ALERT_DB_PATH, "r", encoding="utf-8") as f:
+    with open("/home/maengju/airport_pipeline/user_alerts.json", "r", encoding="utf-8") as f:
         alerts = json.load(f)
 
-    current_time_str = datetime.now().strftime("%H:%M")
+    current_time_str = datetime.now(KST).strftime("%H:%M")
     parking_items = get_latest_parking_data()
     
     updated = False
+
     for alert in alerts:
-        # sent가 False이고 시간이 지났을 때
-        if not alert.get('sent', False) and current_time_str >= alert.get('target_time', '99:99'):
+#        if not alert.get('sent', False) and current_time_str >= alert.get('target_time', '99:99'):
+        if True: 
             msg = f"🚀 [인천공항 실시간 주차 현황]\n"
-            
             if parking_items and isinstance(parking_items, list):
                 for item in parking_items:
-                    # 데이터 파싱 및 안전한 숫자 변환
                     name = item.get('floor', '구역명 미상')
                     available = int(item.get('parking', 0))       # 현재 남은 자리
                     total = int(item.get('parkingarea', 1))       # 전체 면수 (0 나누기 방지 위해 최소 1)
                     
-                    # 만차율 계산 (소수점 첫째 자리까지)
                     occupied = total - available
                     percentage = (occupied / total) * 100
                     
-                    # 🚀 원하시는 형식으로 수정
-                    # "T1 단기주차장 지하 1층 : 284대 가능 (85.2%)"
                     msg += f"📍 {name} : {available}대 가능 ({percentage:.1f}%)\n"
             else:
                 msg += "현재 실시간 주차 데이터를 불러올 수 없습니다."
@@ -77,4 +76,6 @@ def main():
             json.dump(alerts, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
+    print(f"DEBUG: 서버가 인식한 현재 KST 시각: {datetime.now(pytz.timezone('Asia/Seoul')).strftime('%H:%M')}")
     main()
+

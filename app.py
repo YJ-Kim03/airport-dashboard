@@ -184,51 +184,6 @@ elif page == "주차 현황":
                         avail = int(p_dict[f_name]["parkingarea"]) - int(p_dict[f_name]["parking"])
                         rate = (int(p_dict[f_name]["parking"]) / int(p_dict[f_name]["parkingarea"])) * 100
                         st.metric(label=f_name, value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
-            p_dict = {item["floor"]: item for item in items}
-
-            st.error("🏢 인천국제공항 제1여객터미널 (T1 Main Building)")
-
-            # [레이아웃 2단계] 단기 주차장 3분할 입체 칼럼 배치
-            st.subheader("🔹 단기 주차장 (지상층 / B1 / B2)")
-            c1, c2, c3 = st.columns(3)
-
-            # 함수로 정제 로직 단순화
-            def display_parking_metric(col, f_name, label_icon):
-                if f_name in p_dict:
-                    total_cap = int(p_dict[f_name]["parkingarea"])
-                    current_park = int(p_dict[f_name]["parking"])
-                    
-                    # 데이터 정제 로직
-                    if current_park < 0: current_park = 0
-                    if current_park > total_cap: current_park = total_cap
-                    
-                    avail = total_cap - current_park
-                    rate = (current_park / total_cap) * 100 if total_cap > 0 else 0
-                    
-                    col.metric(label=f"{label_icon} {f_name}", value=f"{avail}대 가능", delta=f"만차율 {rate:.1f}%")
-
-            with c1:
-                display_parking_metric(c1, "T1 단기주차장지상층", "🟢")
-            with c2:
-                display_parking_metric(c2, "T1 단기주차장지하1층", "🔵")
-            with c3:
-                display_parking_metric(c3, "T1 단기주차장지하2층", "🔵")
-
-            st.markdown("---")
-
-            # [레이아웃 3단계] 장기 주차장
-            st.subheader("🔸 장기 주차장 / 주차 타워 (동측 vs 서측)")
-            left_col, right_col = st.columns(2)
-
-            with left_col:
-                st.info("⬅️ West Side (서측 주차 구역)")
-                for f_name in ["T1 장기 P2 주차장", "T1 장기 P2 주차타워", "T1 장기 P4 주차장"]:
-                    display_parking_metric(left_col, f_name, "")
-
-            with right_col:
-                st.success("➡️ East Side (동측 주차 구역)")
-                for f_name in ["T1 장기 P1 주차장", "T1 장기 P1 주차타워", "T1 장기 P3 주차장"]:
-                    display_parking_metric(right_col, f_name, "")
 
         except Exception as e:
             st.error(f"주차 데이터 렌더링 중 오류 발생: {e}")
