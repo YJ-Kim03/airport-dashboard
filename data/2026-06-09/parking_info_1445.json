@@ -1,5 +1,9 @@
 {
   "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE."
+    },
     "body": {
       "numOfRows": 10,
       "pageNo": 1,
@@ -7,69 +11,65 @@
       "items": [
         {
           "floor": "T1 단기주차장지하1층",
-          "parking": "297",
+          "parking": "292",
           "parkingarea": "378",
-          "datetm": "20260609143915.000"
+          "datetm": "20260609144415.000"
         },
         {
           "floor": "T1 단기주차장지하2층",
-          "parking": "592",
+          "parking": "587",
           "parkingarea": "1334",
-          "datetm": "20260609143916.000"
+          "datetm": "20260609144416.000"
         },
         {
           "floor": "T1 단기주차장지상층",
-          "parking": "542",
+          "parking": "534",
           "parkingarea": "1052",
-          "datetm": "20260609143916.000"
+          "datetm": "20260609144416.000"
         },
         {
           "floor": "T1 장기 P1 주차장",
-          "parking": "2133",
+          "parking": "2131",
           "parkingarea": "2769",
-          "datetm": "20260609143917.000"
+          "datetm": "20260609144417.000"
         },
         {
           "floor": "T1 장기 P1 주차타워",
           "parking": "1374",
           "parkingarea": "1379",
-          "datetm": "20260609143917.000"
+          "datetm": "20260609144417.000"
         },
         {
           "floor": "T1 장기 P2 주차장",
-          "parking": "1458",
+          "parking": "1456",
           "parkingarea": "2581",
-          "datetm": "20260609143917.000"
+          "datetm": "20260609144417.000"
         },
         {
           "floor": "T1 장기 P2 주차타워",
-          "parking": "1373",
+          "parking": "1372",
           "parkingarea": "1379",
-          "datetm": "20260609143917.000"
+          "datetm": "20260609144417.000"
         },
         {
           "floor": "T1 장기 P3 주차장",
-          "parking": "296",
+          "parking": "293",
           "parkingarea": "1605",
-          "datetm": "20260609143917.000"
+          "datetm": "20260609144417.000"
         },
         {
           "floor": "T1 장기 P4 주차장",
-          "parking": "176",
+          "parking": "175",
           "parkingarea": "1727",
-          "datetm": "20260609143917.000"
+          "datetm": "20260609144417.000"
         },
         {
           "floor": "T1 P5 예약주차장",
           "parking": "975",
           "parkingarea": "1276",
-          "datetm": "20260609143917.000"
+          "datetm": "20260609144418.000"
         }
       ]
-    },
-    "header": {
-      "resultCode": "00",
-      "resultMsg": "NORMAL SERVICE."
     }
   }
 }
