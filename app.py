@@ -320,7 +320,7 @@ elif page == "출국장 현황":
             with main_col1:
                 st.markdown("""
                     <div style='background-color: #E3F2FD; padding: 8px 15px; border-radius: 8px; text-align: center;'>
-                        <h4 style='margin:0; color: #000000;'>➡️ 동측 게이트 현황 (East Gates)</h4>
+                        <h4 style='margin:0; color: #000000;'>➡️ 서측 게이트 현황 (East Gates)</h4>
                     </div>
                 """, unsafe_allow_html=True)
 
